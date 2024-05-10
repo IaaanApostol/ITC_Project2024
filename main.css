@@ -1,0 +1,210 @@
+body {
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace
+}
+#header {
+    background-image: url("header.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#header > h1 {
+    text-align: center;
+    font-size: 350%;
+    padding-top: 23%;
+    color: white;
+}
+#nav {
+    position: fixed;
+    margin-top: 0%;
+    width: 100%;
+    height: 8%;
+    background-color: #141414;
+}
+#nav > a {
+    display: inline-block;
+    height: 100%;
+    padding-left: 7.74%;
+    padding-right: 7.74%;
+    border-right: #ae8648 1px solid;
+}
+#nav > a:hover {
+    color: #ae8648;
+}
+#navbar {
+    width: 100%;
+    height: 25%;
+    margin-bottom: 0%;
+}
+a {
+    text-decoration: none;
+    color:white;
+}
+#navbar > a > div{
+    width: 100%;
+    height: 250%;
+    margin-bottom: 0%;
+}
+#navbar > a > div > h1 {
+    width: 100%;
+    font-size: 172%;
+    color: black;
+    text-align: center;
+}
+#hMain {
+    color: #ae8648;
+}
+#about {
+    border-top: lightgrey 1px solid;
+}
+#about > h1 {
+    margin: 0px;
+    height: 100%;
+    padding-top: 184px;
+}
+#about:hover {
+    background-image: url("tapsihan.jpg");
+    background-position: 50% 32%;
+    animation: about 1s;
+}
+@keyframes about {
+    0% {
+        background-position: 50% 48%;
+    }
+    100% {
+        background-position: 50% 32%;
+    }
+}
+#about > h1:hover {
+    color: white;
+}
+#menu {
+    border-top: lightgrey 1px solid;
+}
+#menu > h1 {
+    margin: 0px;
+    height: 100%;
+    padding-top: 184px;
+}
+#menu:hover {
+    background-image: url("menu.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 32%;
+    animation: menu 1s;
+    
+}
+@keyframes menu {
+    0% {
+        background-position: 50% 48%;
+    }
+    100% {
+        background-position: 50% 32%;
+    }
+}
+#menu > h1:hover {
+    color: white;
+}
+#orders {
+    border-top: lightgrey 1px solid;
+}
+#orders > h1 {
+    margin: 0px;
+    height: 100%;
+    padding-top: 184px;
+}
+#orders:hover {
+    background-image: url("tapsilogg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 64%;
+    animation: orders 1s;
+    
+}
+@keyframes orders {
+    0% {
+        background-position: 50% 80%;
+    }
+    100% {
+        background-position: 50% 64%;
+    }
+}
+#orders > h1:hover {
+    color: white;
+}
+#profile {
+    border-top: lightgrey 1px solid;
+    border-bottom: lightgrey 1px solid;
+}
+#profile > h1 {
+    margin: 0px;
+    height: 100%;
+    padding-top: 184px;
+}
+#profile:hover {
+    background-image: url("profile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    animation: profile 1s;
+    
+}
+@keyframes profile {
+    0% {
+        background-position: 50% 40%;
+    }
+    100% {
+        background-position: 50% 20%;
+    }
+}
+#profile > h1:hover {
+    color: white;
+}
+#filler {
+    height: 480px;
+    background-image: url("steak.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#filler > #caption > p {
+    font-size: 64px;
+    margin-top: 0px;
+    padding-top: 132px;
+    padding-left: 50px;
+    color: white;
+}
+#filler > #newsEmail > input {
+    width: 28%;
+    height: 12%;
+    margin-left: 50px;
+    padding-left: 1%;
+    font-size: 108%;
+    color: white;
+    background-color: #141414;
+    border: none;
+    display: inline-block;
+}
+#filler > #newsEmail > p {
+    color:white;
+    margin-left: 50px;
+    font-size: 108%;
+}
+#filler > #newsEmail > button {
+    width: 12%;
+    height: 12%;
+    margin: 0;
+    margin-left: -.7%;
+    padding: 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    background-color: #ae8648;
+}
+#filler > #newsEmail > button:hover {
+    color: #ae8648;
+    background-color: white;
+}
+::placeholder {
+    color: white;
+}
